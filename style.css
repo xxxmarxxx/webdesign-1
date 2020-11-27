@@ -54,10 +54,29 @@
     position: absolute;
 }
 
-.banner__title--large {
+.banner__title--creative {
     left: 40px;
     top: 80px;
     color: rgb(216, 4, 235);
+}
+
+.banner__title--success {
+    left: 140px;
+    top: 80px;
+    color: rgb(21, 255, 0);
+}
+.banner__title--development {
+    font-size: 2rem;
+    left: 240px;
+    top: 240px;
+    color: rgb(255, 255, 255);
+}
+.banner__title--idea {
+    font-weight: bold;
+    font-size: 6rem;
+    left: 140px;
+    top: 240px;
+    color: rgb(44, 69, 4);
 }
 
 .banner__title--technology {
@@ -66,7 +85,7 @@
     color: rgb(255, 255, 255);
 }
 
-.banner__title--medium {
+.banner__title--innovation {
     font-size: 5rem;
     left: 100px;
     top: 110px;
