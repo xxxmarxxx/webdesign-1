@@ -11,9 +11,31 @@
 }
 
 .page__nav {
-    height: 40px;
-    margin: 10px 60px;
+    /* height: 40px; */
+    width: 900px;
+    margin: auto;
+    padding: 80px;
 
+}
+
+.menu {
+    background-color: rgb(237, 244, 234);
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: #ffffff; */
+}
+
+.logo__image {
+    height: 30px;
+}
+
+.logo__name {
+    padding: 0 60px 0 10px;
 }
 
 .menu__list {
@@ -27,11 +49,36 @@
     float: left;
 }
 
-.menu__link {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
+a:link {
+    color: rgb(226, 43, 128);
 }
+
+a:visited {
+    color: rgb(28, 70, 206);
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: rgb(238, 238, 13);
+}
+
+.menu__link {
+    text-decoration: none;
+    /* display: block; */
+    padding: 0 18px;
+}
+
+.button--large {
+    font-size: 18px;
+    position: absolute;
+    right: 100px;
+    top: 400px;
+    padding: 10px 30px;
+}
+
 
 .banner {
     display: flex;
@@ -67,12 +114,14 @@
     top: 100px;
     color: rgb(21, 255, 0);
 }
+
 .banner__title--development {
     font-size: 2rem;
     left: 240px;
     top: 240px;
     color: rgb(255, 255, 255);
 }
+
 .banner__title--idea {
     font-size: 6rem;
     left: 140px;
@@ -85,6 +134,7 @@
     top: 60px;
     color: rgb(255, 255, 255);
 }
+
 .banner__title--art {
     font-size: 2.5rem;
     left: 160px;
@@ -99,20 +149,16 @@
     color: rgb(230, 230, 0);
 }
 
-.button--large {
-    font-size: 18px;
-    position: absolute;
-    right: 100px;
-    top: 200px;
-    padding: 10px 30px;
-}
+
 
 .page__header {
     background: rgb(219, 225, 230);
 }
 
 .articles {
-    padding: 60px;
+    margin: auto;
+    width: 900px;
+    padding: 80px;
 
 }
 
